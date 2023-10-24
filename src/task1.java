@@ -3,7 +3,11 @@ import java.util.Scanner;
 public class task1  {
 
     public static void main(String[] args){
-        galiter();
+
+        System.out.println(convert(5));
+        System.out.println(convert(3));
+        System.out.println(convert(8));
+
         fitCalc();
         containers();
         triangleType();
@@ -15,18 +19,8 @@ public class task1  {
         tables();
     }
 
-    public static void galiter() {
-        Scanner num = new Scanner(System.in);
-        float lit;
-        int gal;
-        System.out.println("Напишите целое число галлонов: ");
-        gal = num.nextInt();
-        if (gal >= 1){
-            lit = (float) (gal * 3.7854);
-            System.out.println(lit);
-        } else {
-            System.out.println("Неверное число");
-        }
+    public static double convert(int gallons) {
+        return gallons * 3.78541;
     }
     
     public static void fitCalc() {
