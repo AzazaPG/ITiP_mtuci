@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-11-07T22:53:05.608612200Z</date>
+  <millis>1699397585608</millis>
+  <nanos>612200</nanos>
+  <sequence>0</sequence>
+  <logger>DivisionProgram</logger>
+  <level>SEVERE</level>
+  <class>DivisionProgram</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Division error: Division by zero is prohibited</message>
+  <exception>
+    <message>CustomDivisionException: Division by zero is prohibited</message>
+    <frame>
+      <class>DivisionProgram</class>
+      <method>divide</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>DivisionProgram</class>
+      <method>main</method>
+      <line>17</line>
+    </frame>
+  </exception>
+</record>
+</log>
